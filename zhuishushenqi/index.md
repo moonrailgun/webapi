@@ -3,7 +3,7 @@
 ## api服务器地址
 `http://api.zhuishushenqi.com`
 
-#### 追书架
+### 追书架
 
 - **请求URL**
 > [/book](http://api.zhuishushenqi.com/book)
@@ -38,7 +38,7 @@ id | string | 书籍id **可以同时传输多个，用英文,号分割**
 ]
 ```
 
-#### 模糊搜索
+### 模糊搜索
 
 - **请求URL**
 > [/book/fuzzy-search](http://api.zhuishushenqi.com/book/fuzzy-search)
@@ -87,7 +87,7 @@ limit | int | 条目数限制
 }
 ```
 
-#### 热门搜索
+### 热门搜索
 
 - **请求URL**
 > [/book/hot-word](http://api.zhuishushenqi.com/book/hot-word)
@@ -143,7 +143,7 @@ limit | int | 条目数限制
 ```
 
 
-#### 书籍信息
+### 书籍信息
 
 - **请求URL**
 > [/book/:id](http://api.zhuishushenqi.com/book/:id)
@@ -209,7 +209,7 @@ id | string | 书本id
 }
 ```
 
-#### 相关推荐
+### 相关推荐
 
 - **请求URL**
 > [/book/:id/recommend](http://api.zhuishushenqi.com/book/:id/recommend)
@@ -254,7 +254,7 @@ id | string | 书本id
 }
 ```
 
-#### 书籍来源
+### 书籍来源
 
 - **请求URL**
 > [/toc](http://api.zhuishushenqi.com/toc)
@@ -318,7 +318,7 @@ book | string | 书本id
 ]
 ```
 
-#### 章节目录
+### 章节目录
 
 - **请求URL**
 > [/toc/:id](http://api.zhuishushenqi.com/toc/:id)
@@ -360,7 +360,7 @@ id | string | 书源id
 }
 ```
 
-#### 章节正文
+### 章节正文
 
 - **请求URL**
 > [http://chapterup.zhuishushenqi.com/chapter/:link]()
